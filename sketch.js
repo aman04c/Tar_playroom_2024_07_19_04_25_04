@@ -1,8 +1,8 @@
 function setup() {
   createCanvas(600, 600);
-  background(0);
+  background(225,0,0);
   strokeWeight(2);
-  stroke('white');
+  stroke('blue');
   frameRate(10) ;
  
 
