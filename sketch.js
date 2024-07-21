@@ -1,18 +1,19 @@
 function setup() {
-  createCanvas(600, 600);
-  background(225,0,0);
-  strokeWeight(2);
-  stroke('blue');
-  frameRate(10) ;
- 
+  createCanvas(720, 480);
+  background(225, 255, 0);
 
 }
 
 function draw() {
- // declare variables 
-  let posX = mouseX;
-  let PosY = mouseY;
-  // place a dot on the screen
-   point( posX,PosY);
-  
+
+  rectMode(CENTER);
+  fill(155, 10, 0);
+  stroke(mouseY, mouseY);
+  strokeWeight(10);
+  rect(mouseX, mouseY, 50, 30);
+}
+
+function mousePressed()
+{
+  background(225, 255, 0);
 }
